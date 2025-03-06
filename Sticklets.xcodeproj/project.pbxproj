@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5193413A1DFF13DF006D3582 /* StickletsHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 519341391DFF13DA006D3582 /* StickletsHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		519771A41DFC3C2F00D37B8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 519771A31DFC3C2F00D37B8D /* AppDelegate.m */; };
+		519771A71DFC3C2F00D37B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 519771A61DFC3C2F00D37B8D /* main.m */; };
+		519771AA1DFC3C2F00D37B8D /* Sticklets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 519771A81DFC3C2F00D37B8D /* Sticklets.xcdatamodeld */; };
+		519771AC1DFC3C2F00D37B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519771AB1DFC3C2F00D37B8D /* Assets.xcassets */; };
+		519771AF1DFC3C2F00D37B8D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519771AD1DFC3C2F00D37B8D /* MainMenu.xib */; };
+		519771BD1DFC4A1300D37B8D /* Titlebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 519771BC1DFC4A1300D37B8D /* Titlebar.m */; };
+		519771C01DFC4BB800D37B8D /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 519771BF1DFC4BB800D37B8D /* Window.m */; };
+		519771C31DFC5F2200D37B8D /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519771C21DFC5F2200D37B8D /* TextView.m */; };
+		51D234861DFF27F9007DDBD7 /* StatusItemIconTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D234841DFF27F9007DDBD7 /* StatusItemIconTemplate.png */; };
+		51D234871DFF27F9007DDBD7 /* StatusItemIconTemplate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D234851DFF27F9007DDBD7 /* StatusItemIconTemplate@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		519341381DFF13DA006D3582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 519341341DFF13DA006D3582 /* StickletsHelper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 519341111DFF1295006D3582;
+			remoteInfo = StickletsHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5193412B1DFF1320006D3582 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				5193413A1DFF13DF006D3582 /* StickletsHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		519340F91DFEF37C006D3582 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		519341071DFF0871006D3582 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		519341341DFF13DA006D3582 /* StickletsHelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StickletsHelper.xcodeproj; path = StickletsHelper/StickletsHelper.xcodeproj; sourceTree = "<group>"; };
+		5193413B1DFF1B66006D3582 /* Sticklets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sticklets.entitlements; sourceTree = "<group>"; };
+		5197719F1DFC3C2F00D37B8D /* Sticklets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sticklets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		519771A21DFC3C2F00D37B8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		519771A31DFC3C2F00D37B8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		519771A61DFC3C2F00D37B8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		519771A91DFC3C2F00D37B8D /* Sticklets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sticklets.xcdatamodel; sourceTree = "<group>"; };
+		519771AB1DFC3C2F00D37B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		519771AE1DFC3C2F00D37B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		519771B01DFC3C2F00D37B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519771BB1DFC4A1300D37B8D /* Titlebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Titlebar.h; sourceTree = "<group>"; };
+		519771BC1DFC4A1300D37B8D /* Titlebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Titlebar.m; sourceTree = "<group>"; };
+		519771BE1DFC4BB800D37B8D /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		519771BF1DFC4BB800D37B8D /* Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
+		519771C11DFC5F2200D37B8D /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		519771C21DFC5F2200D37B8D /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		51D234841DFF27F9007DDBD7 /* StatusItemIconTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusItemIconTemplate.png; path = Resources/Images/StatusItemIconTemplate.png; sourceTree = "<group>"; };
+		51D234851DFF27F9007DDBD7 /* StatusItemIconTemplate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusItemIconTemplate@2x.png"; path = "Resources/Images/StatusItemIconTemplate@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5197719C1DFC3C2F00D37B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		519340FB1DFF0188006D3582 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				51D234841DFF27F9007DDBD7 /* StatusItemIconTemplate.png */,
+				51D234851DFF27F9007DDBD7 /* StatusItemIconTemplate@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		519341351DFF13DA006D3582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				519341391DFF13DA006D3582 /* StickletsHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		519771961DFC3C2F00D37B8D = {
+			isa = PBXGroup;
+			children = (
+				519341341DFF13DA006D3582 /* StickletsHelper.xcodeproj */,
+				519771A11DFC3C2F00D37B8D /* Sticklets */,
+				519771A01DFC3C2F00D37B8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		519771A01DFC3C2F00D37B8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5197719F1DFC3C2F00D37B8D /* Sticklets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		519771A11DFC3C2F00D37B8D /* Sticklets */ = {
+			isa = PBXGroup;
+			children = (
+				519771C41DFC63CF00D37B8D /* Resources */,
+				519771A21DFC3C2F00D37B8D /* AppDelegate.h */,
+				519771A31DFC3C2F00D37B8D /* AppDelegate.m */,
+				519341071DFF0871006D3582 /* constants.h */,
+				519771C11DFC5F2200D37B8D /* TextView.h */,
+				519771C21DFC5F2200D37B8D /* TextView.m */,
+				519771BB1DFC4A1300D37B8D /* Titlebar.h */,
+				519771BC1DFC4A1300D37B8D /* Titlebar.m */,
+				519771BE1DFC4BB800D37B8D /* Window.h */,
+				519771BF1DFC4BB800D37B8D /* Window.m */,
+				519340F91DFEF37C006D3582 /* README.txt */,
+				519771A51DFC3C2F00D37B8D /* Supporting Files */,
+			);
+			path = Sticklets;
+			sourceTree = "<group>";
+		};
+		519771A51DFC3C2F00D37B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5193413B1DFF1B66006D3582 /* Sticklets.entitlements */,
+				519771A81DFC3C2F00D37B8D /* Sticklets.xcdatamodeld */,
+				519771B01DFC3C2F00D37B8D /* Info.plist */,
+				519771A61DFC3C2F00D37B8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		519771C41DFC63CF00D37B8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				519340FB1DFF0188006D3582 /* Images */,
+				519771AB1DFC3C2F00D37B8D /* Assets.xcassets */,
+				519771AD1DFC3C2F00D37B8D /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5197719E1DFC3C2F00D37B8D /* Sticklets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 519771B31DFC3C2F00D37B8D /* Build configuration list for PBXNativeTarget "Sticklets" */;
+			buildPhases = (
+				5197719B1DFC3C2F00D37B8D /* Sources */,
+				5197719C1DFC3C2F00D37B8D /* Frameworks */,
+				5197719D1DFC3C2F00D37B8D /* Resources */,
+				5193412B1DFF1320006D3582 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sticklets;
+			productName = Sticklets;
+			productReference = 5197719F1DFC3C2F00D37B8D /* Sticklets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		519771971DFC3C2F00D37B8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ali Mahouk";
+				TargetAttributes = {
+					5197719E1DFC3C2F00D37B8D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SA6MPMP77M;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5197719A1DFC3C2F00D37B8D /* Build configuration list for PBXProject "Sticklets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 519771961DFC3C2F00D37B8D;
+			productRefGroup = 519771A01DFC3C2F00D37B8D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 519341351DFF13DA006D3582 /* Products */;
+					ProjectRef = 519341341DFF13DA006D3582 /* StickletsHelper.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5197719E1DFC3C2F00D37B8D /* Sticklets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		519341391DFF13DA006D3582 /* StickletsHelper.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = StickletsHelper.app;
+			remoteRef = 519341381DFF13DA006D3582 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5197719D1DFC3C2F00D37B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519771AC1DFC3C2F00D37B8D /* Assets.xcassets in Resources */,
+				51D234861DFF27F9007DDBD7 /* StatusItemIconTemplate.png in Resources */,
+				51D234871DFF27F9007DDBD7 /* StatusItemIconTemplate@2x.png in Resources */,
+				519771AF1DFC3C2F00D37B8D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5197719B1DFC3C2F00D37B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519771BD1DFC4A1300D37B8D /* Titlebar.m in Sources */,
+				519771A71DFC3C2F00D37B8D /* main.m in Sources */,
+				519771A41DFC3C2F00D37B8D /* AppDelegate.m in Sources */,
+				519771C31DFC5F2200D37B8D /* TextView.m in Sources */,
+				519771AA1DFC3C2F00D37B8D /* Sticklets.xcdatamodeld in Sources */,
+				519771C01DFC4BB800D37B8D /* Window.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		519771AD1DFC3C2F00D37B8D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				519771AE1DFC3C2F00D37B8D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		519771B11DFC3C2F00D37B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: Ali Mahouk (HPSR6NN6YR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		519771B21DFC3C2F00D37B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: Ali Mahouk (HPSR6NN6YR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		519771B41DFC3C2F00D37B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sticklets/Sticklets.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SA6MPMP77M;
+				INFOPLIST_FILE = Sticklets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = co.alimade.Sticklets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		519771B51DFC3C2F00D37B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sticklets/Sticklets.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SA6MPMP77M;
+				INFOPLIST_FILE = Sticklets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = co.alimade.Sticklets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5197719A1DFC3C2F00D37B8D /* Build configuration list for PBXProject "Sticklets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519771B11DFC3C2F00D37B8D /* Debug */,
+				519771B21DFC3C2F00D37B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		519771B31DFC3C2F00D37B8D /* Build configuration list for PBXNativeTarget "Sticklets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519771B41DFC3C2F00D37B8D /* Debug */,
+				519771B51DFC3C2F00D37B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		519771A81DFC3C2F00D37B8D /* Sticklets.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				519771A91DFC3C2F00D37B8D /* Sticklets.xcdatamodel */,
+			);
+			currentVersion = 519771A91DFC3C2F00D37B8D /* Sticklets.xcdatamodel */;
+			path = Sticklets.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 519771971DFC3C2F00D37B8D /* Project object */;
+}
